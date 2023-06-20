@@ -10,11 +10,13 @@ When the user clicks on the link, it will open the "example.html" page, and the 
 Here's an example of how you can retrieve the parameters in "example.html" using JavaScript:
 
 <script>
+  
   const urlParams = new URLSearchParams(window.location.search);
   const name = urlParams.get('name');
   const age = urlParams.get('age');
   
   console.log(`Name: ${name}`);
   console.log(`Age: ${age}`);
+  
 </script>
 
